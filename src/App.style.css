@@ -1,0 +1,8 @@
+.App {
+  box-sizing: border-box;
+  width: 220px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-family: sans-serif;
+}

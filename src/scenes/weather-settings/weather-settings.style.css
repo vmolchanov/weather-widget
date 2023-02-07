@@ -1,0 +1,32 @@
+.weather-settings {
+  position: relative;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+}
+
+.weather-settings__title {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.weather-settings__close {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+
+  background-color: transparent;
+  border: none;
+}
+
+.weather-settings__close:hover {
+  cursor: pointer;
+}
+
+.weather-settings__add-location {
+  margin-top: 20px;
+}

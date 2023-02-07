@@ -1,0 +1,37 @@
+.weather-main {
+  position: relative;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+}
+
+.weather-main__list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.weather-main__settings {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  background-color: transparent;
+  border: none;
+}
+
+.weather-main__settings:hover {
+  cursor: pointer;
+}
+
+.weather-main__card:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.weather-main__loader,
+.weather-main__error-message {
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+.list-group-item {
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  background-color: #eeeeee;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+}
+
+.list-group-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.list-group-item__burger {
+  position: relative;
+}
+
+.list-group-item__burger img {
+  position: absolute;
+  top: calc(50% + 2px);
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.list-group-item__content {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  line-height: 24px;
+}
+
+.list-group-item__remove {
+  position: relative;
+}
+
+.list-group-item__remove button {
+  position: absolute;
+  top: calc(50% + 1px);
+  left: 50%;
+
+  padding: 0;
+  margin: 0;
+
+  background-color: transparent;
+  border: none;
+
+  transform: translate(-50%, -50%);
+}
+
+.list-group-item__remove button:hover {
+  cursor: pointer;
+}
+
+.list-group-item__remove img {
+  position: absolute;
+  top: calc(50% + 1px);
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
